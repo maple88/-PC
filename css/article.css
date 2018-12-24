@@ -1,0 +1,48 @@
+@charset "utf-8";
+#logo .nav_dj{ width:.36rem; height:.36rem; position:absolute; right:4%; top:50%; margin-top:-.18rem; cursor:pointer;}
+#logo .nav_dj1{ width:.36rem; height:.36rem; position:absolute; right:4%; top:50%; margin-top:-.18rem; cursor:pointer;}
+#nav{ width:100%; max-width:640px; min-width:320px; height:auto; overflow:hidden; margin-bottom:.1rem; background:#fff; position:absolute; top:0; z-index:999;}
+#nav #logo{ background:#fff;}
+#nav .nav{ width:94%; height:auto; padding:5% 3% 0; overflow:hidden;}
+.nav li{ width:23.5%; height:auto; float:left; margin-left:2%; text-align:center; margin-bottom:.44rem;}
+.nav li img{ display:block; margin:0 auto; width:64%; max-width:90px; margin-bottom:.12rem;}
+.nav li p{ font-size:.2rem; color:#352315;}
+.nav .li1{ margin-left:0;}
+
+#xing{ width:100%; height:auto; margin:0 auto; max-width:640px; min-width:320px;}
+#article{ width:100%; height:auto; overflow:hidden; background:#fff;}
+.title{ width:94%; height:auto; padding:.2rem 3%; font-size:.3rem; position:relative; background-position:3%; background-size:.32rem; box-shadow:0 4px 5px #f0efee; margin-bottom:.75rem; padding-left:.2rem;}
+.title a{}
+.article1{ width:100%; height:auto; overflow:hidden; box-shadow:0 10px 20px #f0efee; margin-bottom:.6rem; padding-bottom:.3rem;}
+.article1 h2{ color:#271408; font-weight:normal; font-size:.32rem; border-left:.2rem solid #362314; padding-left:.15rem; margin-bottom:.5rem;}
+.article1 .p1{ width:94%; height:auto; margin:0 auto; font-size:.24rem; line-height:.46rem; text-indent:2em; color:#454545; margin-bottom:.32rem;}
+.article1 img{ width:94%; height:auto; margin:0 auto; display:block; margin-bottom:.32rem;}
+.article2{ width:100%; overflow:hidden; margin-bottom:.3rem;}
+.article2 .p2{ padding:0 0 0 .4rem; text-align:left; color:#151515; font-size:.2rem; margin-bottom:.16rem; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
+.article2 .p2 a{ color:#666666; margin-left:.2rem;}
+
+
+@media screen and (max-width:500px) {
+.article1 .p1{ font-size:.26rem;}
+.article2 .p2{ font-size:.22rem;}
+}
+@media screen and (max-width:400px) {
+.article1 .p1{ font-size:.28rem;}
+.article2 .p2{ font-size:.24rem;}
+}
+
+.article1 .arc_content{ height:auto; overflow:hidden; line-height:2em; padding:0 .2rem;}
+.article1 .arc_content div,.article1 .arc_content p{ margin-bottom:.15rem;}
+@media screen and (max-width:450px) {
+.article1 .arc_content{ font-size:.26rem;}
+}
+
+
+
+
+
+
+
+
+
+

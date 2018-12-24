@@ -1,0 +1,38 @@
+@charset "utf-8";
+#logo .nav_dj{ width:.36rem; height:.36rem; position:absolute; right:4%; top:50%; margin-top:-.18rem; cursor:pointer;}
+#logo .nav_dj1{ width:.36rem; height:.36rem; position:absolute; right:4%; top:50%; margin-top:-.18rem; cursor:pointer;}
+#nav{ width:100%; max-width:640px; min-width:320px; height:auto; overflow:hidden; margin-bottom:.1rem; background:#fff; position:absolute; top:0; z-index:999;}
+#nav #logo{ background:#fff;}
+#nav .nav{ width:94%; height:auto; padding:5% 3% 0; overflow:hidden;}
+.nav li{ width:23.5%; height:auto; float:left; margin-left:2%; text-align:center; margin-bottom:.44rem;}
+.nav li img{ display:block; margin:0 auto; width:64%; max-width:90px; margin-bottom:.12rem;}
+.nav li p{ font-size:.2rem; color:#352315;}
+.nav .li1{ margin-left:0;}
+
+#xing{ width:100%; height:auto; margin:0 auto; max-width:640px; min-width:320px;}
+#listpage{ width:100%; height:auto; overflow:hidden;}
+.title{ width:94%; height:auto; padding:.2rem 3%; font-size:.24rem; box-shadow:0 4px 5px #f0efee; margin-bottom:.5rem;}
+.list_wen{ width:90%; height:auto; overflow:hidden; margin:0 auto .4rem; background:#fff; box-shadow:0px 5px 10px #dcd9d7; padding:3%;}
+.list_wen .p1{ font-size:.24rem; color:#352315; margin-bottom:.1rem;}
+.list_wen .list_tu{ width:100%; height:auto; position:relative; margin-bottom:.2rem;}
+.list_wen .list_tu .list_im1{ width:100%; display:block; margin:0 auto;}
+.list_wen .list_tu .list_im2{ width:.8rem; position:absolute; left:.2rem; bottom:-.12rem;}
+.list_wen .p2{ font-size:.2rem; color:#666666; line-height:1.6em;}
+
+#listpage .yema{ width:100%; text-align:center; margin-bottom:.4rem;}
+#listpage .yema a{ display:inline-block; font-size:.24rem; margin-right:.08rem; color:#fff; background:#b1a8a2;}
+#listpage .yema span{ display:inline-block; font-size:.24rem; color:#fff; border-radius:.25rem; width:1.15rem; height:.53rem; line-height:.53rem; background:#b1a8a2;}
+#listpage .yema .yema_a1{ background:#271408;}
+#listpage .yema .a1{ border-radius:.25rem; width:1.15rem; height:.53rem; line-height:.53rem;}
+#listpage .yema .a2{ border-radius:50%; width:.58rem; height:.58rem; line-height:.58rem;}
+
+@media (max-width:500px) {
+.title{ font-size:.26rem;}
+}
+@media (max-width:400px) {
+.title{ font-size:.28rem;}
+.list_wen .p1{ font-size:.26rem;}
+.list_wen .p2{ font-size:.22rem;}
+}
+
+
